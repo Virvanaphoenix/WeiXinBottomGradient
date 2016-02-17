@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tz="http://schemas.android.com/apk/res/com.example.weixin"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+    
+     
+        >
+        
+        
+        
+        
+    </android.support.v4.view.ViewPager> 
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="30px"
+        
+        android:background="@drawable/xiantiao"
+        
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        
+        android:background="@drawable/bj2"
+        android:orientation="horizontal"
+        >
+        <com.example.weixin.ExchangeColorView
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+        tz:icon="@drawable/ic_menu_conversation"
+            tz:text="WIFI"
+            tz:text_size="13sp"
+            />
+           <com.example.weixin.ExchangeColorView
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            tz:icon="@drawable/ic_menu_friendslist"
+            tz:text="消息"
+            tz:text_size="13sp"
+            
+            />
+              <com.example.weixin.ExchangeColorView
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+            tz:icon="@drawable/ic_menu_emoticons"
+            tz:text="设置"
+            tz:text_size="13sp"
+            />
+                 <com.example.weixin.ExchangeColorView
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="2dp"
+          tz:icon="@drawable/ic_menu_allfriends"
+            tz:text="我的"
+            tz:text_size="13sp"
+            
+            />
+            
+            
+            
+
+        
+        
+    </LinearLayout>
+    
+    
+    
+</LinearLayout>
